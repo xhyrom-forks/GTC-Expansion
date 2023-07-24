@@ -48,6 +48,7 @@ public class GTCXTileGasTurbine extends GTCXTileBaseBurnableFluidGenerator {
     public static void init(){
         addRecipe(GTMaterialGen.getFluid(GTMaterial.Hydrogen), 940, 16);
         addRecipe(GTMaterialGen.getFluid(GTMaterial.Methane), 2815, 16);
+        addRecipe(GTMaterialGen.getFluid(GTMaterial.Deuterium), 2815, 16);
         addRecipe(GTMaterialGen.getFluid(GTCXMaterial.Propane), 2815, 16);
         GTFluidHandler.addBurnableToolTip(GTMaterialGen.getFluid(GTMaterial.Hydrogen));
         GTFluidHandler.addBurnableToolTip(GTMaterialGen.getFluid(GTMaterial.Methane));

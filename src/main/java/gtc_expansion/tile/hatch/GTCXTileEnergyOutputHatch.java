@@ -352,7 +352,7 @@ public abstract class GTCXTileEnergyOutputHatch extends TileEntityMachine implem
     public static class GTCXTileFusionEnergyExtractor extends GTCXTileEnergyOutputHatch{
 
         public GTCXTileFusionEnergyExtractor() {
-            super(12, 1000000000, 134217728);
+            super(12, 1000000000, 32768);
         }
     }
 }
